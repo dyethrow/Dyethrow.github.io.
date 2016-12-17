@@ -1,0 +1,230 @@
+/*FONTS */
+@import
+/* TYPOGRAPHY */
+#sitename, h1, h3 {
+	text-transform: capitalize;
+}
+#sitename {
+	color: #fff ;
+	font-family: 'gadget', cursive;
+	font-size: 40px;
+	text-shadow: #fff -1px -3px;
+}
+h1, h3 { font-family:'Mr Headlines', cursive;
+	}
+h1 { font-size: 50px;
+	text-align: center;
+	margin: 10px;
+}
+h3 { font-size: 50px;
+	text-align: center;
+	margin: 10px;}
+
+/* IMAGES */
+i {
+	padding: 20px;
+}
+img {
+	max-width: 50%
+	margin: 10px;
+
+}
+/* BASIC LAYOUT */
+body {
+	color: #fff;
+	background: #000 url(images/bg.jpg) top center no-repeat fixed;
+	background-size: cover;
+	padding: 0px;
+	margin: 0px;
+
+}
+input {position: right
+	min-height: 100px;}
+header {
+	background: rgba(0,0,0,0.5) ;
+	padding: -13px;
+	text-align: center;
+	clear: both;
+}
+#logo {
+}
+
+
+p { margin:10px;
+text-align : center; }
+main {
+	margin: 40px;
+	min-height: 10s00px;
+	background: rgba(0,0,0,0.5);
+}
+ #new {padding: 10px;
+	box-sizing: border-box;
+	margin: 20px;
+	background: #fff;}
+    
+	
+
+section {
+	padding: 10px;
+	box-sizing: border-box;
+	margin: 20px;
+	background: rgba(0,0,0,0.5);
+	
+}
+footer { color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+	background: #fff url(images/nav.jpg) bottom left repeat-x;
+	padding: 18px;
+}
+form { display: inline-block  }
+
+/* NAV */
+a { color:#fff ; 
+   padding: 10px; box-sizing: border-box; }
+
+nav {
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	background: #383838 url(images/nav.jpg) repeat-x;
+	border-bottom: 000px solid;
+}
+ 
+nav ul {
+	padding: 100;
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+nav ul li {
+	display:inline-block;
+}
+nav a {
+	display: inline-block;
+	padding: 0 25px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #7d7d7d;
+}
+/** Hide Dropdowns by Default **/
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+	background: #000;
+}
+/** Display Dropdowns on Hover **/
+nav ul li:hover > ul {
+	display:inherit;
+}
+/** First Tier Dropdown **/
+nav ul ul li {
+	width: auto;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+nav ul ul li:hover a {
+	background: #944935 ;
+}
+/** Second, Third and more Tiers **/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:170px;
+}
+/** Change this in order to change the Dropdown symbol **/
+/*li > a:after { 
+	content:  ' +'; 
+	}
+li > a:only-child:after { 
+	content: ''; 
+}*/
+
+/* ALIGNMENT */
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.textleft {
+	text-align: left;
+}
+.textright {
+	text-align: right;
+}
+.textcenter {
+	text-align: center;
+}
+.clearleft {
+	clear: left;
+}
+.clearright {
+	clear: right;
+}
+.clearfix {
+	clear: both;
+}
+
+/* GRID LAYOUT */
+.span1 {
+	margin: 1.0416666667%;
+	width: 6.25%;
+}
+.span2 {
+	margin: 1.0416666667%;
+	width: 14.5833333333%;
+}
+.span3 {
+	margin: 1.0416666667%;
+	width: 22.9166666667%;
+}
+.span4 {
+	margin: 1.0416666667%;
+	width: 31.2500000000%;
+}
+.span5 {
+	margin: 1s.0416666667%;
+	width: 39.5833333333%;
+}
+.span6 {
+	margin: 1.0416666667%;
+	width: 47.9166666667%;
+}
+.span7 {
+	margin: 1.0416666667%;
+	width: 56.2500000000%;
+}
+.span8 {
+	margin: 1.0416666667%;
+	width: 64.5833333333%;
+}
+.span9 {
+	margin: 1.0416666667%;
+	width: 72.9166666667%;
+}
+.span10 {
+	margin: 1.0416666667%;
+	width: 81.2500000000%;
+}
+.span11 {
+	margin: 1.0416666667%;
+	width: 89.5833333333%;
+}
+.span12 {
+	margin: 1.0416666667%;
+	width: 97.9166666667%;
+}
